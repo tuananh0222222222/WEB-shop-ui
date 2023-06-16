@@ -915,6 +915,30 @@ form.search button:hover {
  .mini-links li a:hover{
     text-decoration: underline;
  }
+
+
+ /* FOTTER */
+.newsletter {
+    padding: 2.5em 0;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+.newsletter h3 {
+    font-size: 1.5em
+    
+}
+
+.newsletter p {
+    font-weight: var(--fw3);
+    color: var(--border-color);
+    margin: 0.5em 0 1.5em;
+}
+.newsletter form {
+    max-width: 500px;
+    width: var(--percent100);
+}
+
+
 /* RESPONSIVE */
 
 @media screen and (min-width:481px) {
@@ -1153,5 +1177,10 @@ form.search button:hover {
     }
     .products.main .item {
         flex: 0 0 25%;
+    }
+    .newsletter .box {
+        display: flex   ;
+        justify-content: space-between;
+        align-items: center;
     }
 }
